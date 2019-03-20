@@ -57,17 +57,17 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="46.5" height="453"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SK7-i2-YSY">
-                                                        <rect key="frame" x="14" y="0.0" width="18.5" height="453"/>
+                                                        <rect key="frame" x="10.5" y="0.0" width="25.5" height="453"/>
                                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <connections>
-                                                            <action selector="firstString:" destination="Os7-ry-UYp" eventType="touchUpInside" id="2XI-lu-gjm"/>
+                                                            <action selector="fistString:" destination="Os7-ry-UYp" eventType="touchDown" id="GoU-Fu-DhN"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>
                                                 <color key="backgroundColor" red="0.23022055629999999" green="0.053508959709999998" blue="0.036896377799999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="bottom" secondItem="SK7-i2-YSY" secondAttribute="bottom" id="5lI-1K-r2H"/>
-                                                    <constraint firstItem="SK7-i2-YSY" firstAttribute="width" secondItem="w6F-bE-sCa" secondAttribute="width" multiplier="0.4" id="JLT-4Y-4h3"/>
+                                                    <constraint firstItem="SK7-i2-YSY" firstAttribute="width" secondItem="w6F-bE-sCa" secondAttribute="width" multiplier="0.55" id="JLT-4Y-4h3"/>
                                                     <constraint firstItem="SK7-i2-YSY" firstAttribute="centerX" secondItem="w6F-bE-sCa" secondAttribute="centerX" id="PT7-BN-dxg"/>
                                                     <constraint firstItem="SK7-i2-YSY" firstAttribute="top" secondItem="w6F-bE-sCa" secondAttribute="top" id="iyz-wr-kxX"/>
                                                 </constraints>
@@ -76,13 +76,16 @@
                                                 <rect key="frame" x="46.5" y="0.0" width="47" height="453"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bsT-Xq-aM0">
-                                                        <rect key="frame" x="14" y="0.0" width="19" height="453"/>
+                                                        <rect key="frame" x="10.5" y="0.0" width="26" height="453"/>
                                                         <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <connections>
+                                                            <action selector="secondString:" destination="Os7-ry-UYp" eventType="touchDown" id="0BX-pu-gN5"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                                 <color key="backgroundColor" red="0.23022055629999999" green="0.053508959709999998" blue="0.036896377799999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
-                                                    <constraint firstItem="bsT-Xq-aM0" firstAttribute="width" secondItem="3PH-eg-qqJ" secondAttribute="width" multiplier="0.4" id="Hby-RX-JRL"/>
+                                                    <constraint firstItem="bsT-Xq-aM0" firstAttribute="width" secondItem="3PH-eg-qqJ" secondAttribute="width" multiplier="0.55" id="Hby-RX-JRL"/>
                                                     <constraint firstItem="bsT-Xq-aM0" firstAttribute="centerX" secondItem="3PH-eg-qqJ" secondAttribute="centerX" id="KPb-iK-Rwe"/>
                                                     <constraint firstAttribute="bottom" secondItem="bsT-Xq-aM0" secondAttribute="bottom" id="hbX-Ap-JeE"/>
                                                     <constraint firstItem="bsT-Xq-aM0" firstAttribute="top" secondItem="3PH-eg-qqJ" secondAttribute="top" id="yTW-Kd-sSi"/>
@@ -92,8 +95,11 @@
                                                 <rect key="frame" x="93.5" y="0.0" width="47" height="453"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="76v-nc-CQt">
-                                                        <rect key="frame" x="14" y="0.0" width="19" height="453"/>
+                                                        <rect key="frame" x="10.5" y="0.0" width="26" height="453"/>
                                                         <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <connections>
+                                                            <action selector="thirdString:" destination="Os7-ry-UYp" eventType="touchDown" id="xt7-MB-b0T"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                                 <color key="backgroundColor" red="0.23022055629999999" green="0.053508959709999998" blue="0.036896377799999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -101,26 +107,26 @@
                                                     <constraint firstItem="76v-nc-CQt" firstAttribute="top" secondItem="3tb-6J-Pp0" secondAttribute="top" id="0B9-D3-W0a"/>
                                                     <constraint firstAttribute="bottom" secondItem="76v-nc-CQt" secondAttribute="bottom" id="51e-tI-3xs"/>
                                                     <constraint firstItem="76v-nc-CQt" firstAttribute="centerX" secondItem="3tb-6J-Pp0" secondAttribute="centerX" id="K72-7A-ks9"/>
-                                                    <constraint firstItem="76v-nc-CQt" firstAttribute="width" secondItem="3tb-6J-Pp0" secondAttribute="width" multiplier="0.4" id="nAz-M5-uda"/>
+                                                    <constraint firstItem="76v-nc-CQt" firstAttribute="width" secondItem="3tb-6J-Pp0" secondAttribute="width" multiplier="0.55" id="nAz-M5-uda"/>
                                                 </constraints>
                                             </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SKk-mp-Xva">
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AtS-ZK-Kmu">
                                                 <rect key="frame" x="140.5" y="0.0" width="47" height="453"/>
                                                 <subviews>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jBt-fA-Abj">
-                                                        <rect key="frame" x="14" y="0.0" width="18.5" height="453"/>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s0T-2N-aW4">
+                                                        <rect key="frame" x="10.5" y="0.0" width="25.5" height="453"/>
                                                         <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <connections>
-                                                            <action selector="actonnnn:" destination="Os7-ry-UYp" eventType="touchUpInside" id="SND-kQ-bVO"/>
+                                                            <action selector="fourthString:" destination="Os7-ry-UYp" eventType="touchDown" id="SY2-OC-e7F"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>
                                                 <color key="backgroundColor" red="0.23022055629999999" green="0.053508959709999998" blue="0.036896377799999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
-                                                    <constraint firstItem="jBt-fA-Abj" firstAttribute="width" secondItem="SKk-mp-Xva" secondAttribute="width" multiplier="0.4" id="0IM-kN-Qi0"/>
-                                                    <constraint firstAttribute="bottom" secondItem="jBt-fA-Abj" secondAttribute="bottom" id="744-vG-GJA"/>
-                                                    <constraint firstItem="jBt-fA-Abj" firstAttribute="centerX" secondItem="SKk-mp-Xva" secondAttribute="centerX" id="Pef-Ng-sPd"/>
-                                                    <constraint firstItem="jBt-fA-Abj" firstAttribute="top" secondItem="SKk-mp-Xva" secondAttribute="top" id="wy1-Yr-Jaj"/>
+                                                    <constraint firstItem="s0T-2N-aW4" firstAttribute="centerX" secondItem="AtS-ZK-Kmu" secondAttribute="centerX" id="8Uj-ZV-VI7"/>
+                                                    <constraint firstItem="s0T-2N-aW4" firstAttribute="width" secondItem="AtS-ZK-Kmu" secondAttribute="width" multiplier="0.55" id="9Cz-nq-N3j"/>
+                                                    <constraint firstAttribute="bottom" secondItem="s0T-2N-aW4" secondAttribute="bottom" id="UDn-AS-MrI"/>
+                                                    <constraint firstItem="s0T-2N-aW4" firstAttribute="top" secondItem="AtS-ZK-Kmu" secondAttribute="top" id="hJY-MS-nWy"/>
                                                 </constraints>
                                             </view>
                                         </subviews>
@@ -144,6 +150,12 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="SGr-bY-MD6"/>
                     </view>
+                    <connections>
+                        <outlet property="firstStringOutlet" destination="SK7-i2-YSY" id="0Bk-ZB-ij8"/>
+                        <outlet property="fourthStringOutlet" destination="s0T-2N-aW4" id="mWH-TN-BZG"/>
+                        <outlet property="secondStringOutlet" destination="bsT-Xq-aM0" id="Cjl-qt-dig"/>
+                        <outlet property="thirdStringOutlet" destination="76v-nc-CQt" id="ebi-9h-sBl"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bB2-05-mfj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
