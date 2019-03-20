@@ -47,13 +47,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2gR-0o-jL1">
-                                <rect key="frame" x="166" y="93" width="83" height="42"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sUz-wM-67w">
                                 <rect key="frame" x="94" y="194" width="187.5" height="453"/>
                                 <subviews>
@@ -66,6 +59,9 @@
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SK7-i2-YSY">
                                                         <rect key="frame" x="14" y="0.0" width="18.5" height="453"/>
                                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <connections>
+                                                            <action selector="firstString:" destination="Os7-ry-UYp" eventType="touchUpInside" id="2XI-lu-gjm"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                                 <color key="backgroundColor" red="0.23022055629999999" green="0.053508959709999998" blue="0.036896377799999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -146,10 +142,8 @@
                             <constraint firstItem="sUz-wM-67w" firstAttribute="width" secondItem="lBs-bK-6OM" secondAttribute="width" multiplier="0.5" id="whw-8Y-8tC"/>
                             <constraint firstItem="sUz-wM-67w" firstAttribute="centerX" secondItem="lBs-bK-6OM" secondAttribute="centerX" id="zo5-og-ryj"/>
                         </constraints>
+                        <viewLayoutGuide key="safeArea" id="SGr-bY-MD6"/>
                     </view>
-                    <connections>
-                        <outlet property="lab" destination="2gR-0o-jL1" id="oj4-Ue-AEM"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bB2-05-mfj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

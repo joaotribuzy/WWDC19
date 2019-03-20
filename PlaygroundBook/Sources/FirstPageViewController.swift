@@ -15,10 +15,9 @@ class FirstPageViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-    @IBOutlet weak var lab: UILabel!
     
-    @IBAction func actonnnn(_ sender: Any) {
-        lab.text = "1213423423423114"
+    @IBAction func firstString(_ sender: Any) {
+        
     }
     
     
