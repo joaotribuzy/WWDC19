@@ -13,8 +13,9 @@ class FirstPageViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
     }
-    
+
     //MARK: - VARIABLES
     
     // ----- Button Shake -----
@@ -34,6 +35,7 @@ class FirstPageViewController: UIViewController {
     @IBOutlet weak var thirdStringOutlet: UIButton!
     @IBOutlet weak var fourthStringOutlet: UIButton!
     
+    @IBOutlet weak public var playButton: UIButton!
     /// MARK: - ACTIONS
     
     // String actions.
@@ -41,6 +43,8 @@ class FirstPageViewController: UIViewController {
         PlayerController.sharedInstance.playSound(soundFileName: "C")
         
         sender.shake(duration: self.duration, delay: self.delay, usingSpringWithDamping: self.usingSpringVelocity, xValue: self.xValue, yValue: self.yValue, initialSpringVelocity: self.initialSpringVelocity)
+        
+        //playButton.titleLabel?.text = whatMelody
     }
     @IBAction func secondString(_ sender: UIButton) {
         
@@ -61,6 +65,9 @@ class FirstPageViewController: UIViewController {
         sender.shake(duration: self.duration, delay: self.delay, usingSpringWithDamping: self.usingSpringVelocity, xValue: self.xValue, yValue: self.yValue, initialSpringVelocity: self.initialSpringVelocity)
     }
     
+    @IBAction func playButtonAction(_ sender: Any) {
+        PlayerController.sharedInstance.playSound(soundFileName: "\(whatMelody)")
+    }
     
     
     

@@ -152,12 +152,22 @@
                                     <constraint firstAttribute="trailing" secondItem="Ogu-na-2ea" secondAttribute="trailing" id="mGK-0c-sgf"/>
                                 </constraints>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wJF-0K-U5N">
+                                <rect key="frame" x="164.5" y="72" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="playButtonAction:" destination="Os7-ry-UYp" eventType="touchUpInside" id="3ok-r3-lPS"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="wJF-0K-U5N" firstAttribute="centerX" secondItem="SGr-bY-MD6" secondAttribute="centerX" id="A87-iV-Vz3"/>
                             <constraint firstItem="30o-S6-Qe5" firstAttribute="centerX" secondItem="SGr-bY-MD6" secondAttribute="centerX" id="Drf-hp-04Y"/>
+                            <constraint firstItem="wJF-0K-U5N" firstAttribute="top" secondItem="SGr-bY-MD6" secondAttribute="top" constant="52" id="M7X-8T-PEt"/>
                             <constraint firstItem="sUz-wM-67w" firstAttribute="top" secondItem="30o-S6-Qe5" secondAttribute="bottom" id="bIR-Ba-igf"/>
                             <constraint firstAttribute="bottom" secondItem="sUz-wM-67w" secondAttribute="bottom" id="faE-1C-80l"/>
+                            <constraint firstItem="30o-S6-Qe5" firstAttribute="top" secondItem="wJF-0K-U5N" secondAttribute="bottom" constant="72" id="mmC-9Q-YIn"/>
                             <constraint firstItem="sUz-wM-67w" firstAttribute="height" secondItem="lBs-bK-6OM" secondAttribute="height" multiplier="0.7" id="pKU-02-bqb"/>
                             <constraint firstItem="30o-S6-Qe5" firstAttribute="width" secondItem="sUz-wM-67w" secondAttribute="width" multiplier="1.05" id="uk6-xs-IYM"/>
                             <constraint firstItem="sUz-wM-67w" firstAttribute="width" secondItem="lBs-bK-6OM" secondAttribute="width" multiplier="0.57" id="whw-8Y-8tC"/>
@@ -168,13 +178,14 @@
                     <connections>
                         <outlet property="firstStringOutlet" destination="SK7-i2-YSY" id="0Bk-ZB-ij8"/>
                         <outlet property="fourthStringOutlet" destination="s0T-2N-aW4" id="mWH-TN-BZG"/>
+                        <outlet property="playButton" destination="wJF-0K-U5N" id="xYB-oV-Rlh"/>
                         <outlet property="secondStringOutlet" destination="bsT-Xq-aM0" id="Cjl-qt-dig"/>
                         <outlet property="thirdStringOutlet" destination="76v-nc-CQt" id="ebi-9h-sBl"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bB2-05-mfj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="477.60000000000002" y="-540.17991004497753"/>
+            <point key="canvasLocation" x="345" y="-540"/>
         </scene>
     </scenes>
 </document>
