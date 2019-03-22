@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3810E880224523180031CC0B /* playMelodys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3810E87F224523180031CC0B /* playMelodys.swift */; };
 		3815EEC822442D8800A2CF98 /* GlobalObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3815EEC722442D8800A2CF98 /* GlobalObjects.swift */; };
 		3815EECA22444D3A00A2CF98 /* melody1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3815EEC922444D3A00A2CF98 /* melody1.mp3 */; };
 		3815EECC2245027F00A2CF98 /* melody2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3815EECB2245027F00A2CF98 /* melody2.mp3 */; };
@@ -101,6 +102,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3810E87F224523180031CC0B /* playMelodys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = playMelodys.swift; sourceTree = "<group>"; };
 		3815EEC722442D8800A2CF98 /* GlobalObjects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalObjects.swift; sourceTree = "<group>"; };
 		3815EEC922444D3A00A2CF98 /* melody1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = melody1.mp3; path = SOUND/melody1.mp3; sourceTree = SOURCE_ROOT; };
 		3815EECB2245027F00A2CF98 /* melody2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = melody2.mp3; path = SOUND/melody2.mp3; sourceTree = SOURCE_ROOT; };
@@ -154,6 +156,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3810E88122452A830031CC0B /* LiveView */ = {
+			isa = PBXGroup;
+			children = (
+				5EF2F9AD2054BBF300191409 /* LiveViewController.swift */,
+				5E3196F22061DEA40077BBD7 /* LiveViewSupport.swift */,
+			);
+			path = LiveView;
+			sourceTree = "<group>";
+		};
+		3810E88222452A910031CC0B /* SecondPage */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SecondPage;
+			sourceTree = "<group>";
+		};
 		3859272D2242E4E8005416A9 /* Sound */ = {
 			isa = PBXGroup;
 			children = (
@@ -171,6 +189,7 @@
 			isa = PBXGroup;
 			children = (
 				3852A92D2242B07900228CE8 /* FirstPageViewController.swift */,
+				3810E87F224523180031CC0B /* playMelodys.swift */,
 			);
 			path = FirstPage;
 			sourceTree = "<group>";
@@ -304,11 +323,11 @@
 		5EF2F9A22054BB3E00191409 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				3810E88122452A830031CC0B /* LiveView */,
 				38FA182D2243C133004B7025 /* Utils */,
 				3859272D2242E4E8005416A9 /* Sound */,
 				38FA182A22430CD1004B7025 /* FirstPage */,
-				5EF2F9AD2054BBF300191409 /* LiveViewController.swift */,
-				5E3196F22061DEA40077BBD7 /* LiveViewSupport.swift */,
+				3810E88222452A910031CC0B /* SecondPage */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -486,6 +505,7 @@
 				387F899A2242E3F00035B4D6 /* PlayerController.swift in Sources */,
 				38FA18312243C741004B7025 /* SwipeButton.swift in Sources */,
 				5EF2F9AE2054BBF300191409 /* LiveViewController.swift in Sources */,
+				3810E880224523180031CC0B /* playMelodys.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

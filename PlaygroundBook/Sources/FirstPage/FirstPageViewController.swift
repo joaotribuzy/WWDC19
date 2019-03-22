@@ -84,32 +84,13 @@ class FirstPageViewController: UIViewController {
     }
     
     @IBAction func playButtonAction(_ sender: Any) {
-        
-        
         if audioPlayer.isPlaying{
-            audioPlayer.currentTime = 0
-            audioPlayer.play()
-            
+            callMelody()
         }else{
-            audioPlayer.play()
+            callMelody()
         }
-        pauseButton.isHidden = false
-        playButton.isHidden = true
+        playButton.isEnabled = false
     }
-    
-    @IBAction func pauseButtonAction(_ sender: Any) {
-        if audioPlayer.isPlaying{
-            audioPlayer.stop()
-            audioPlayer.currentTime = 0
-        }else{
-        
-        }
-        pauseButton.isHidden = true
-        playButton.isHidden = false
-    }
-    
-    
-    
     
 
     /*

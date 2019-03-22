@@ -159,23 +159,12 @@
                                     <action selector="playButtonAction:" destination="Os7-ry-UYp" eventType="touchUpInside" id="3ok-r3-lPS"/>
                                 </connections>
                             </button>
-                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nlK-lc-enQ">
-                                <rect key="frame" x="150" y="70" width="75" height="54"/>
-                                <state key="normal" title="Pause"/>
-                                <connections>
-                                    <action selector="pauseButtonAction:" destination="Os7-ry-UYp" eventType="touchUpInside" id="VAn-qp-yVK"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="wJF-0K-U5N" firstAttribute="centerX" secondItem="SGr-bY-MD6" secondAttribute="centerX" id="A87-iV-Vz3"/>
                             <constraint firstItem="30o-S6-Qe5" firstAttribute="centerX" secondItem="SGr-bY-MD6" secondAttribute="centerX" id="Drf-hp-04Y"/>
-                            <constraint firstItem="nlK-lc-enQ" firstAttribute="top" secondItem="SGr-bY-MD6" secondAttribute="top" constant="50" id="HFG-4S-pSf"/>
-                            <constraint firstItem="nlK-lc-enQ" firstAttribute="width" secondItem="lBs-bK-6OM" secondAttribute="width" multiplier="0.2" id="LJ7-3g-q1Y"/>
                             <constraint firstItem="wJF-0K-U5N" firstAttribute="top" secondItem="SGr-bY-MD6" secondAttribute="top" constant="50" id="M7X-8T-PEt"/>
-                            <constraint firstItem="30o-S6-Qe5" firstAttribute="top" secondItem="nlK-lc-enQ" secondAttribute="bottom" constant="50" id="NZd-ap-N1V"/>
-                            <constraint firstItem="nlK-lc-enQ" firstAttribute="centerX" secondItem="SGr-bY-MD6" secondAttribute="centerX" id="VTU-CO-oJP"/>
                             <constraint firstItem="sUz-wM-67w" firstAttribute="top" secondItem="30o-S6-Qe5" secondAttribute="bottom" id="bIR-Ba-igf"/>
                             <constraint firstItem="wJF-0K-U5N" firstAttribute="width" secondItem="lBs-bK-6OM" secondAttribute="width" multiplier="0.2" id="ctY-nE-VuQ"/>
                             <constraint firstAttribute="bottom" secondItem="sUz-wM-67w" secondAttribute="bottom" id="faE-1C-80l"/>
@@ -190,7 +179,6 @@
                     <connections>
                         <outlet property="firstStringOutlet" destination="SK7-i2-YSY" id="0Bk-ZB-ij8"/>
                         <outlet property="fourthStringOutlet" destination="s0T-2N-aW4" id="mWH-TN-BZG"/>
-                        <outlet property="pauseButton" destination="nlK-lc-enQ" id="Yq5-5y-Fms"/>
                         <outlet property="playButton" destination="wJF-0K-U5N" id="xYB-oV-Rlh"/>
                         <outlet property="secondStringOutlet" destination="bsT-Xq-aM0" id="Cjl-qt-dig"/>
                         <outlet property="thirdStringOutlet" destination="76v-nc-CQt" id="ebi-9h-sBl"/>
@@ -198,7 +186,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bB2-05-mfj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="345" y="-540"/>
+            <point key="canvasLocation" x="509.60000000000002" y="-540.17991004497753"/>
         </scene>
     </scenes>
 </document>

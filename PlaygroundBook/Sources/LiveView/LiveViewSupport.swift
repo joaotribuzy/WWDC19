@@ -15,8 +15,6 @@ public var whatMelody = "melody1"
 public func instantiateLiveView() -> PlaygroundLiveViewable {
     let storyboard = UIStoryboard(name: "LiveView", bundle: nil)
     
-    
-
     guard let viewController = storyboard.instantiateInitialViewController() else {
         fatalError("LiveView.storyboard does not have an initial scene; please set one or update this function")
     }
