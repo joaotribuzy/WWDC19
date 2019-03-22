@@ -17,20 +17,20 @@ class FirstPageViewController: UIViewController {
 
         // Do any additional setup after loading the view.
         
-        playerSettings()
+        //playerSettings()
         
     }
     
-    func playerSettings(){
-        do{
-            audioPlayer = try  AVAudioPlayer(contentsOf: URL.init(fileURLWithPath: Bundle.main.path(forResource: "\(whatMelody)", ofType: "mp3")!))
-            audioPlayer.prepareToPlay()
-        }
-        catch{
-            print(error)
-        }
-        
-    }
+//    func playerSettings(){
+//        do{
+//            audioPlayer = try  AVAudioPlayer(contentsOf: URL.init(fileURLWithPath: Bundle.main.path(forResource: "\(whatMelody)", ofType: "mp3")!))
+//            audioPlayer.prepareToPlay()
+//        }
+//        catch{
+//            print(error)
+//        }
+//        
+//    }
 
     //MARK: - VARIABLES
     
@@ -84,11 +84,7 @@ class FirstPageViewController: UIViewController {
     }
     
     @IBAction func playButtonAction(_ sender: Any) {
-        if audioPlayer.isPlaying{
-            callMelody()
-        }else{
-            callMelody()
-        }
+        callMelody()
         playButton.isEnabled = false
     }
     

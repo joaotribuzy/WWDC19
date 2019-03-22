@@ -9,8 +9,8 @@
 /* Begin PBXBuildFile section */
 		3810E880224523180031CC0B /* playMelodys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3810E87F224523180031CC0B /* playMelodys.swift */; };
 		3815EEC822442D8800A2CF98 /* GlobalObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3815EEC722442D8800A2CF98 /* GlobalObjects.swift */; };
-		3815EECA22444D3A00A2CF98 /* melody1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3815EEC922444D3A00A2CF98 /* melody1.mp3 */; };
-		3815EECC2245027F00A2CF98 /* melody2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3815EECB2245027F00A2CF98 /* melody2.mp3 */; };
+		3815EECA22444D3A00A2CF98 /* visualMelody1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3815EEC922444D3A00A2CF98 /* visualMelody1.mp3 */; };
+		3815EECC2245027F00A2CF98 /* melody1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3815EECB2245027F00A2CF98 /* melody1.mp3 */; };
 		3852A92E2242B07900228CE8 /* FirstPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3852A92D2242B07900228CE8 /* FirstPageViewController.swift */; };
 		387F899A2242E3F00035B4D6 /* PlayerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387F89992242E3F00035B4D6 /* PlayerController.swift */; };
 		38FA182222430264004B7025 /* C.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 38FA181F22430264004B7025 /* C.mp3 */; };
@@ -104,8 +104,8 @@
 /* Begin PBXFileReference section */
 		3810E87F224523180031CC0B /* playMelodys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = playMelodys.swift; sourceTree = "<group>"; };
 		3815EEC722442D8800A2CF98 /* GlobalObjects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalObjects.swift; sourceTree = "<group>"; };
-		3815EEC922444D3A00A2CF98 /* melody1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = melody1.mp3; path = SOUND/melody1.mp3; sourceTree = SOURCE_ROOT; };
-		3815EECB2245027F00A2CF98 /* melody2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = melody2.mp3; path = SOUND/melody2.mp3; sourceTree = SOURCE_ROOT; };
+		3815EEC922444D3A00A2CF98 /* visualMelody1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = visualMelody1.mp3; path = SOUND/visualMelody1.mp3; sourceTree = SOURCE_ROOT; };
+		3815EECB2245027F00A2CF98 /* melody1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = melody1.mp3; path = SOUND/melody1.mp3; sourceTree = SOURCE_ROOT; };
 		3852A92D2242B07900228CE8 /* FirstPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstPageViewController.swift; sourceTree = "<group>"; };
 		387F89992242E3F00035B4D6 /* PlayerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerController.swift; sourceTree = "<group>"; };
 		38FA181F22430264004B7025 /* C.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = C.mp3; path = SOUND/C.mp3; sourceTree = SOURCE_ROOT; };
@@ -175,8 +175,8 @@
 		3859272D2242E4E8005416A9 /* Sound */ = {
 			isa = PBXGroup;
 			children = (
-				3815EECB2245027F00A2CF98 /* melody2.mp3 */,
-				3815EEC922444D3A00A2CF98 /* melody1.mp3 */,
+				3815EECB2245027F00A2CF98 /* melody1.mp3 */,
+				3815EEC922444D3A00A2CF98 /* visualMelody1.mp3 */,
 				38FA18262243059D004B7025 /* D#.mp3 */,
 				38FA18272243059D004B7025 /* F.mp3 */,
 				38FA181F22430264004B7025 /* C.mp3 */,
@@ -450,8 +450,8 @@
 				38FA182322430264004B7025 /* D.mp3 in Resources */,
 				38FA18292243059D004B7025 /* F.mp3 in Resources */,
 				38FA182222430264004B7025 /* C.mp3 in Resources */,
-				3815EECC2245027F00A2CF98 /* melody2.mp3 in Resources */,
-				3815EECA22444D3A00A2CF98 /* melody1.mp3 in Resources */,
+				3815EECC2245027F00A2CF98 /* melody1.mp3 in Resources */,
+				3815EECA22444D3A00A2CF98 /* visualMelody1.mp3 in Resources */,
 				5E086DCA2051DDAE004D8D25 /* LiveView.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

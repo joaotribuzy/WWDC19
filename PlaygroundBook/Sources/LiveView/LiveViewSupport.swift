@@ -8,7 +8,8 @@
 import UIKit
 import PlaygroundSupport
 
-public var whatMelody = "melody1"
+public var whatMelody = "visualMelody1"
+public var withVisualExample: Bool = true
 /// Instantiates a new instance of a live view.
 ///
 /// By default, this loads an instance of `LiveViewController` from `LiveView.storyboard`.

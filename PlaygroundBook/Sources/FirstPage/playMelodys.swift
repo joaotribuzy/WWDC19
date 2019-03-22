@@ -12,8 +12,15 @@ extension FirstPageViewController{
     
     func callMelody(){
         switch whatMelody {
+        case "visualMelody1":
+            callVisualExampleMelody1()
+            break
         case "melody1":
-            callMelody1()
+            self.playButton.isEnabled = false
+            PlayerController.sharedInstance.playSound(soundFileName: "melody1")
+            DispatchQueue.main.asyncAfter(deadline: .now() + 6) {
+                self.playButton.isEnabled = true
+            }
             break
         default:
             break
@@ -33,7 +40,7 @@ extension FirstPageViewController{
         self.fourthString(self.fourthStringOutlet)
     }
     
-    func callMelody1(){
+    func callVisualExampleMelody1(){
         self.firstStringOutlet.isUserInteractionEnabled = false
         self.secondStringOutlet.isUserInteractionEnabled = false
         self.thirdStringOutlet.isUserInteractionEnabled = false
