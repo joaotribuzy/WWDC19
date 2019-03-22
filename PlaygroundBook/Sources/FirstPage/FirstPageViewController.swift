@@ -6,13 +6,29 @@
 //
 
 import UIKit
+import AVFoundation
 
 class FirstPageViewController: UIViewController {
 
+    var audioPlayer = AVAudioPlayer()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        playerSettings()
+        
+    }
+    
+    func playerSettings(){
+        do{
+            audioPlayer = try  AVAudioPlayer(contentsOf: URL.init(fileURLWithPath: Bundle.main.path(forResource: "\(whatMelody)", ofType: "mp3")!))
+            audioPlayer.prepareToPlay()
+        }
+        catch{
+            print(error)
+        }
         
     }
 
@@ -36,6 +52,8 @@ class FirstPageViewController: UIViewController {
     @IBOutlet weak var fourthStringOutlet: UIButton!
     
     @IBOutlet weak public var playButton: UIButton!
+    @IBOutlet weak var pauseButton: UIButton!
+    
     /// MARK: - ACTIONS
     
     // String actions.
@@ -66,8 +84,30 @@ class FirstPageViewController: UIViewController {
     }
     
     @IBAction func playButtonAction(_ sender: Any) {
-        PlayerController.sharedInstance.playSound(soundFileName: "\(whatMelody)")
+        
+        
+        if audioPlayer.isPlaying{
+            audioPlayer.currentTime = 0
+            audioPlayer.play()
+            
+        }else{
+            audioPlayer.play()
+        }
+        pauseButton.isHidden = false
+        playButton.isHidden = true
     }
+    
+    @IBAction func pauseButtonAction(_ sender: Any) {
+        if audioPlayer.isPlaying{
+            audioPlayer.stop()
+            audioPlayer.currentTime = 0
+        }else{
+        
+        }
+        pauseButton.isHidden = true
+        playButton.isHidden = false
+    }
+    
     
     
     
