@@ -35,6 +35,7 @@ PlaygroundPage.current.liveView = instantiateLiveView()
 //#-end-hidden-code
 /*:
  - Note:
+    Don't forget...that's a figurative representation of a bass, don't represent the real life fidelitly.
     When you tap the **Play Button**▶️, wait to listen the melody. You can listen the melody whenever you want.
     I'm will help you with some visual effects...but don't get used to it...😏😏
     When you want to change the melody, remember to tap on **Run my Code** again.
