@@ -22,8 +22,9 @@ enum Melody{
  
      1. Select what melody you want...(For this, change the **'melody'** value).
      2. Tap **Run my Code**.
-     3. Tap play to listen the melody.
-     4. Try to reproduce it...
+     3. Turn up the volume.
+     4. Tap play to listen the melody.
+     5. Try to reproduce it...
  
  ---
  

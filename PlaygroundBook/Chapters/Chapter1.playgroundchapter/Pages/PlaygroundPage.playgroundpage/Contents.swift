@@ -24,8 +24,9 @@ enum VisualMelody{
  
     1.  Select what melody you want...(For this, we'll use a variable called **'melody'**. Change the variable value to change what melody will play.)
     2.  Tap **Run my Code**.
-    3.  Tap play to listen and "see" the melody.
-    4.  Try to reproduce it...
+    3.  Turn up the volume.
+    4.  Tap play to listen and "see" the melody.
+    5.  Try to reproduce it...
  */
 let melody: VisualMelody = /*#-editable-code*/.visualMelody1/*#-end-editable-code*/
 //#-hidden-code
