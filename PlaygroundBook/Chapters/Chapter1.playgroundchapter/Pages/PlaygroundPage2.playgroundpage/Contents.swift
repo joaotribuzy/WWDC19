@@ -14,21 +14,21 @@ enum Melody{
 }
 //#-end-hidden-code
 /*:
- Ok, now you know a litle more about the **Music World**,so  let's make something more dificult...
+ Ok, now you know a little more about the **Music World**, so let's make something more difficult...
  **I challenge you** to make something similar, but with some diferences.
  The process is the same...
  
  - Experiment:
  
-     1. Select what melody you want...(For this, change the **'melody'**.
-     2. Tap on **Run my Code**.
+     1. Select what melody you want...(For this, change the **'melody'** value).
+     2. Tap **Run my Code**.
      3. Tap play to listen the melody.
      4. Try to reproduce it...
  
  ---
  
  - Note:
-    Now, we have some diference, you'll don't have any visual responce. Just listen and try to reproduce...yes, you can, you are a bass player yet...😎 But remember, you can play just after you listen... calm down, step bt step...
+    Now, we have some difference, you won't have any visual response. Just listen and try to reproduce...yes, you can, you already are a bass player...😎 But remember, you can play just after you listen... calm down, let's do this step by step...
  */
 let melody: Melody = /*#-editable-code*/.melody1/*#-end-editable-code*/
 //#-hidden-code

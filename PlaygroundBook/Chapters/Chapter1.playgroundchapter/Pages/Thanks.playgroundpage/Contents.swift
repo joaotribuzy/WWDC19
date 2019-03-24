@@ -1,24 +1,24 @@
 /*:
  # Congratulations!!
  
- Now you are a bass player...😎😎 even if just on this Playground😬😂
+ Now you are a bass player...😎😎 even if just on this **Swift Playground**😬😂
  But... let me tell you a story... this playground is how about I started to play bass.
  
  One day some friends of mine invited me to play a bass in their band practice, but at that time, I had never played bass in my life...😬
  But I went, even though I was clueless…
  
- They show me what notes I needed to play. After I memorized the notes, I memorized the sequence of notes of the music...
+ They showed me what notes I needed to play. After I memorized the notes, then I memorized the note's sequence of the music...
  That way, I learned three musics in one day...😂😂
  
  After that day, I decided to study bass for the rest of my life... and today, music is my passion.
- on that day, with my friends, I had a motivation: Try something I knew nothing about
+ On that day, with my friends, I had a motivation: Try something I knew nothing about
  
  ...
  
- To make this playground, I had a motivation too, but now, the motivation is different.*/
+ To make this playground, I had a motivation too, but now, it is...*/
 let motivation = "WWDC19"
 /*:
- Se você quer fazer alguma coisa, ou aprender algo novo, apenas siga em frente. Se você não tentar , as repostas sempre vão ser negativas, então busque as positivas.
+ If you want to do or learn something new, just go for it. If you don't try, the answers will always be negative, so look for the positive ones.😉
  
  ---
  
