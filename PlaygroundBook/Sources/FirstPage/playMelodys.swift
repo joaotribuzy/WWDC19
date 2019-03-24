@@ -20,16 +20,34 @@ extension FirstPageViewController{
             break
         case "melody1":
             self.playButton.isEnabled = false
+            self.firstStringOutlet.isEnabled = false
+            self.secondStringOutlet.isEnabled = false
+            self.thirdStringOutlet.isEnabled = false
+            self.fourthStringOutlet.isEnabled = false
             PlayerController.sharedInstance.playSound(soundFileName: "melody1")
             DispatchQueue.main.asyncAfter(deadline: .now() + 6) {
                 self.playButton.isEnabled = true
+                
+                self.firstStringOutlet.isEnabled = true
+                self.secondStringOutlet.isEnabled = true
+                self.thirdStringOutlet.isEnabled = true
+                self.fourthStringOutlet.isEnabled = true
             }
             break
         case "melody2":
             self.playButton.isEnabled = false
+            self.firstStringOutlet.isEnabled = false
+            self.secondStringOutlet.isEnabled = false
+            self.thirdStringOutlet.isEnabled = false
+            self.fourthStringOutlet.isEnabled = false
             PlayerController.sharedInstance.playSound(soundFileName: "melody2")
             DispatchQueue.main.asyncAfter(deadline: .now() + 6) {
                 self.playButton.isEnabled = true
+                
+                self.firstStringOutlet.isEnabled = true
+                self.secondStringOutlet.isEnabled = true
+                self.thirdStringOutlet.isEnabled = true
+                self.fourthStringOutlet.isEnabled = true
             }
             break
         default:

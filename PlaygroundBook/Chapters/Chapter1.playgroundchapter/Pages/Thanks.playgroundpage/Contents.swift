@@ -18,6 +18,10 @@
  To make this playground, I had a motivation too, but now, the motivation is different.*/
 let motivation = "WWDC19"
 /*:
+ Se você quer fazer alguma coisa, ou aprender algo novo, apenas siga em frente. Se você não tentar , as repostas sempre vão ser negativas, então busque as positivas.
+ 
+ ---
+ 
  **I hope you enjoy this playground!!**
  
  *Scolarship announcement*

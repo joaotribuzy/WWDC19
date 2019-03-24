@@ -16,22 +16,8 @@ class FirstPageViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        
-        //playerSettings()
-        
     }
     
-//    func playerSettings(){
-//        do{
-//            audioPlayer = try  AVAudioPlayer(contentsOf: URL.init(fileURLWithPath: Bundle.main.path(forResource: "\(whatMelody)", ofType: "mp3")!))
-//            audioPlayer.prepareToPlay()
-//        }
-//        catch{
-//            print(error)
-//        }
-//        
-//    }
-
     //MARK: - VARIABLES
     
     // ----- Button Shake -----
@@ -61,8 +47,6 @@ class FirstPageViewController: UIViewController {
         PlayerController.sharedInstance.playSound(soundFileName: "C")
         
         sender.shake(duration: self.duration, delay: self.delay, usingSpringWithDamping: self.usingSpringVelocity, xValue: self.xValue, yValue: self.yValue, initialSpringVelocity: self.initialSpringVelocity)
-        
-        //playButton.titleLabel?.text = whatMelody
     }
     @IBAction func secondString(_ sender: UIButton) {
         

@@ -28,7 +28,7 @@ enum Melody{
  ---
  
  - Note:
-    Now, we have some diference, you'll don't have any visual responce. Just listen and try to reproduce...yes, you can, you are a bass player yet...😎
+    Now, we have some diference, you'll don't have any visual responce. Just listen and try to reproduce...yes, you can, you are a bass player yet...😎 But remember, you can play just after you listen... calm down, step bt step...
  */
 let melody: Melody = /*#-editable-code*/.melody1/*#-end-editable-code*/
 //#-hidden-code

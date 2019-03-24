@@ -19,14 +19,6 @@ public class LiveViewController: UIViewController, PlaygroundLiveViewMessageHand
         
     }
     
-    public override func viewDidLoad() {
-        super.viewDidLoad()
-        
-        
-    }
- 
-
-    
     public func liveViewMessageConnectionClosed() {
         // Implement this method to be notified when the live view message connection is closed.
         // The connection will be closed when the process running Contents.swift exits and is no longer listening for messages.
