@@ -15,9 +15,19 @@ extension FirstPageViewController{
         case "visualMelody1":
             callVisualExampleMelody1()
             break
+        case "visualMelody2":
+            callVisualExampleMelody2()
+            break
         case "melody1":
             self.playButton.isEnabled = false
             PlayerController.sharedInstance.playSound(soundFileName: "melody1")
+            DispatchQueue.main.asyncAfter(deadline: .now() + 6) {
+                self.playButton.isEnabled = true
+            }
+            break
+        case "melody2":
+            self.playButton.isEnabled = false
+            PlayerController.sharedInstance.playSound(soundFileName: "melody2")
             DispatchQueue.main.asyncAfter(deadline: .now() + 6) {
                 self.playButton.isEnabled = true
             }
@@ -67,6 +77,31 @@ extension FirstPageViewController{
             self.perform(#selector(self.dsus), with: nil, afterDelay: 2.9)
         }
         DispatchQueue.main.asyncAfter(deadline: .now() + 6.1) {
+            self.firstStringOutlet.isUserInteractionEnabled = true
+            self.secondStringOutlet.isUserInteractionEnabled = true
+            self.thirdStringOutlet.isUserInteractionEnabled = true
+            self.fourthStringOutlet.isUserInteractionEnabled = true
+            
+            self.playButton.isEnabled = true
+        }
+    }
+    
+    func callVisualExampleMelody2(){
+        self.firstStringOutlet.isUserInteractionEnabled = false
+        self.secondStringOutlet.isUserInteractionEnabled = false
+        self.thirdStringOutlet.isUserInteractionEnabled = false
+        self.fourthStringOutlet.isUserInteractionEnabled = false
+        
+        DispatchQueue.main.asyncAfter(deadline: .now()) {
+            self.secondString(self.secondStringOutlet)
+            self.perform(#selector(self.c), with: nil, afterDelay: 0.4)
+            self.perform(#selector(self.f), with: nil, afterDelay: 0.85)
+            self.perform(#selector(self.dsus), with: nil, afterDelay: 1.45)
+            self.perform(#selector(self.c), with: nil, afterDelay: 1.70)
+            self.perform(#selector(self.dsus), with: nil, afterDelay: 2.15)
+            self.perform(#selector(self.c), with: nil, afterDelay: 2.5)
+        }
+        DispatchQueue.main.asyncAfter(deadline: .now() + 4) {
             self.firstStringOutlet.isUserInteractionEnabled = true
             self.secondStringOutlet.isUserInteractionEnabled = true
             self.thirdStringOutlet.isUserInteractionEnabled = true

@@ -10,7 +10,7 @@ import PlaygroundSupport
 
 enum VisualMelody{
     case visualMelody1
-    //case melody2
+    case visualMelody2
 }
 //#-end-hidden-code
 /*:

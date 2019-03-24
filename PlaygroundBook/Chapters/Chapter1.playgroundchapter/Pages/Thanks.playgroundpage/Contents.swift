@@ -2,16 +2,16 @@
  # Congratulations!!
  
  Now you are a bass player...😎😎 even if just on this Playground😬😂
- But... let me tell you a story... this playground is how about I start play bass.
+ But... let me tell you a story... this playground is how about I started to play bass.
  
- One day some friends invite me to play a bass in his band practice, but at this moment, I never tried to play a bass on my life...😬
- But I went, even know nothing about this...
+ One day some friends of mine invited me to play a bass in their band practice, but at that time, I had never played bass in my life...😬
+ But I went, even though I was clueless…
  
- They show me what notes a needed to play. After I memorize the notes, I memorize the sequence of notes of the music...
- On this way I learn three musics on this day...😂😂
+ They show me what notes I needed to play. After I memorized the notes, I memorized the sequence of notes of the music...
+ That way, I learned three musics in one day...😂😂
  
- After this day, I decide to study bass for the rest of my life... Today, music is my passion.
- on That day, with my friends, I had a motivation: Try something I know nothing
+ After that day, I decided to study bass for the rest of my life... and today, music is my passion.
+ on that day, with my friends, I had a motivation: Try something I knew nothing about
  
  ...
  
@@ -20,7 +20,7 @@ let motivation = "WWDC19"
 /*:
  **I hope you enjoy this playground!!**
  
- *Scolarship anouncement*
+ *Scolarship announcement*
  
  *Find a way to show my passion*
  
@@ -36,5 +36,5 @@ let motivation = "WWDC19"
 /*:
  ## About Me
  
- My name is João Tribuzy and I'm a student of **Apple Developer Academy Manaus**. I study **Computer Engineering** at Federal University of Amazonas. I love music, dance, and programming... this is me...😎😎
+ My name is João Tribuzy and I'm an **Apple Developer Academy Manaus** student. I study **Computer Engineering** at Federal University of Amazonas. I love music, dance, and programming... this is me...😎😎
  */
